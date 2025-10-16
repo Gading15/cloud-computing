@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cloudinary Upload — Cloudy by Gading</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>☁️ Cloudy Upload (Cloudinary)</h1>
+    <p class="muted">Upload file langsung ke Cloudinary (unsigned)</p>
+
+    <div class="controls">
+      <input id="fileInput" type="file" />
+      <button id="uploadBtn"> Upload </button>
+    </div>
+
+    <div id="status" class="status"></div>
+
+    <h2>📂 Uploaded</h2>
+    <ul id="fileList" class="file-list"></ul>
+
+    <p class="hint">Note: untuk lihat file asli buka Cloudinary Console → Media Library. Hapus dari console jika mau permanen.</p>
+  </main>
+
+  <script type="module" src="script.js"></script>
+  <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>
+</body>
+</html>
